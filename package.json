@@ -1,0 +1,33 @@
+{
+  "name": "typescript-patientor",
+  "version": "1.0.0",
+  "description": "A project for typescript practice",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc",
+    "dev": "ts-node-dev index.ts",
+    "lint": "eslint --ext .ts .",
+    "start": "node build/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JWCTempleton/typescript-patientor.git"
+  },
+  "author": "JWCTempleton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JWCTempleton/typescript-patientor/issues"
+  },
+  "homepage": "https://github.com/JWCTempleton/typescript-patientor#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@typescript-eslint/eslint-plugin": "^5.59.1",
+    "@typescript-eslint/parser": "^5.59.1",
+    "eslint": "^8.39.0",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
